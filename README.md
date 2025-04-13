@@ -1,10 +1,10 @@
-# portfolio
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>V. Chalama Reddy | Network Engineer Portfolio</title>
+  <title>V. Chalama Reddy | Network & Security Engineer</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -17,7 +17,7 @@
     header {
       text-align: center;
       padding: 60px 20px;
-      background: #1e293b;
+      background: linear-gradient(to right, #1e3a8a, #0f172a);
     }
 
     header h1 {
@@ -27,7 +27,7 @@
 
     header p {
       font-size: 1.2rem;
-      color: #94a3b8;
+      color: #cbd5e1;
     }
 
     .resume-btn {
@@ -42,13 +42,13 @@
     }
 
     .content {
-      max-width: 850px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
     }
 
     .section {
-      margin-bottom: 40px;
+      margin-bottom: 50px;
     }
 
     h2 {
@@ -83,10 +83,16 @@
 
     footer {
       text-align: center;
-      padding: 20px;
+      padding: 30px;
       background: #1e293b;
-      font-size: 0.9rem;
       color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    .social-icons img {
+      height: 25px;
+      margin: 0 10px;
+      vertical-align: middle;
     }
   </style>
 </head>
@@ -94,7 +100,7 @@
 
   <header>
     <h1>V. Chalama Reddy</h1>
-    <p>Network Engineer | Cloud | Security | SD-WAN | Automation</p>
+    <p>Network Engineer | Cloud | SD-WAN | Security | Automation</p>
     <a class="resume-btn" href="ChalamaReddy_Network Engineer.docx" download>📄 Download Resume</a>
   </header>
 
@@ -102,36 +108,15 @@
 
     <div class="section">
       <h2>About Me</h2>
-      <p>With over 5 years of experience in enterprise networking, I specialize in multi-vendor infrastructure, firewalls, SD-WAN, cloud security, and automation. I enjoy designing resilient architectures and solving performance challenges at scale.</p>
+      <p>I’m a Network Engineer with over 5 years of experience in designing and optimizing secure, high-performance network infrastructures. My core strengths lie in SD-WAN, enterprise routing, firewall platforms (Palo Alto, Fortinet, ASA), and cloud networking across AWS, Azure, and Zscaler environments. I’ve led enterprise-wide security upgrades, CDN rollouts (Cloudflare, Akamai), and automation-driven infrastructure transformations using Ansible, Terraform, and Python.</p>
     </div>
 
     <div class="section">
       <h2>Professional Experience</h2>
       <ul>
-        <li><strong>Verizon:</strong> Deployed Cisco ACI, SD-WAN (Viptela, Versa, Silver Peak), Palo Alto PA-7K firewalls, Fortinet 6000, Zscaler ZIA/ZPA, Akamai CDN, and Cisco ISE with extensive automation using Ansible and Terraform.</li>
-        <li><strong>UHG:</strong> Migrated firewalls (Check Point to ASA), deployed A10 TPS & Akamai WAF, configured SD-WAN with Versa & Silver Peak, implemented AWS Direct Connect, and maintained Aruba wireless infrastructure.</li>
-        <li><strong>Capgemini:</strong> Network support, IOS upgrades, routing protocol deployment (OSPF, BGP, EIGRP), firewall setup (ASA), and monitoring with SolarWinds, Wireshark.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>Routing & Switching (BGP, OSPF, VXLAN, EVPN)</li>
-        <li>Firewalls: Palo Alto, Fortinet, Cisco ASA</li>
-        <li>Cloud Networking: AWS, Azure, Zscaler</li>
-        <li>Load Balancing: F5, NetScaler, A10</li>
-        <li>Automation: Ansible, Terraform, Python</li>
-        <li>Monitoring: Grafana, SNMP, SolarWinds, Splunk</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Certifications</h2>
-      <ul>
-        <li>CCNP Enterprise</li>
-        <li>PCNSE (Palo Alto)</li>
-        <li>AWS Solutions Architect – Associate</li>
+        <li><strong>Verizon:</strong> Led enterprise Cisco ACI + SD-WAN deployments, Zscaler integration, Akamai CDN tuning, and Palo Alto PA-7K implementation.</li>
+        <li><strong>UHG:</strong> Deployed FortiGates, migrated firewall policies, enabled Versa SD-WAN, and handled AWS Direct Connect & hybrid VPNs.</li>
+        <li><strong>Capgemini:</strong> Supported MPLS & DMVPN routing, Cisco ASA firewall policies, and enterprise-wide monitoring via SolarWinds and SNMP.</li>
       </ul>
     </div>
 
@@ -140,23 +125,48 @@
       <div class="tech-icons">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aws/aws-original.svg"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"/>
       </div>
     </div>
 
     <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Cisco Certified Network Associate (CCNA)</li>
+        <li>Cisco Certified Network Professional (CCNP)</li>
+        <li>AWS Solutions Architect – Associate</li>
+        <li>PCNSE (Palo Alto Networks)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>CDN Projects</h2>
+      <ul>
+        <li><strong>Akamai:</strong> Built and optimized centralized property config DSLs for high-volume edge delivery.</li>
+        <li><strong>Cloudflare:</strong> Configured Cache Everything rules, WAF, Workers, and Zero Trust access policies for internal tools.</li>
+        <li><strong>Multi-CDN Strategy:</strong> Designed DNS steering via Route53 + Cloudflare + Akamai failover for global performance.</li>
+      </ul>
+    </div>
+
+    <div class="section">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:crvenna25@gmail.com">crvenna25@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/crvenna/" target="_blank">chalamareddy</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/crvenna/" target="_blank">linkedin.com/in/crvenna</a></p>
     </div>
 
   </div>
 
   <footer>
-    © 2025 V. Chalama Reddy. All rights reserved.
+    <p>Connect with me:</p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/crvenna/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
+      <a href="mailto:crvenna25@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png"/></a>
+      <a href="https://github.com/chalama" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png"/></a>
+    </div>
+    <p>© 2025 V. Chalama Reddy — All rights reserved.</p>
   </footer>
 
 </body>
